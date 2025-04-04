@@ -433,13 +433,11 @@ p {
   top: 10px;
   left: 10px;
   font-family: var(--accent-font);
-  font-size: 14px; /* измените размер шрифта по мере необходимости */
+  font-size: 14px;
   mix-blend-mode: hard-light;
-  color: #fff; /* Цвет текста */
+  color: #fff;
   padding: 5px;
-  background: transparent; /* Полупрозрачный фон для контраста */
-  top: 25px; /* Отступ сверху */
-  left: clamp(264px,573px); /* Отступ справа */
+  background: transparent;
   right: 13px;
 }
 
@@ -455,14 +453,12 @@ p {
   }
 }
 
-
-
 .modal {
   border: solid 2px var(--accent-color);
   background-color: var(--main-bg-color);
   width: 341px;
   height: 191px;
-  display: none; 
+  display: none;
 }
 
 .modal[open] {
@@ -520,12 +516,6 @@ p {
 .modal-close-button:hover {
   background-color: var(--accent-color);
   color: var(--main-bg-color);
-}
-
-.modal-content {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
-  gap: 20px;
 }
 
 .footer {

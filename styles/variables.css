@@ -1,0 +1,63 @@
+:root {
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', sans-serif;
+
+  /* Веса шрифтов для светлой темы */
+  --card-text-weight-light: 400;
+  --card-title-weight-light: 700;
+
+  /* Веса шрифтов для тёмной темы */
+  --card-text-weight-dark: 465;
+  --card-title-weight-dark: 785;
+
+  --main-bg-color: #FFFFFF;
+  --accent-color: #000000;
+  --background-pattern: url('/svg/pattern-light.svg');
+
+  --section-width: clamp(375px, 48.6%, 1440px);
+
+  --grid-gradient-light: 
+    repeating-linear-gradient(
+      to right,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #d3d3d3 0,
+      #d3d3d3 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #e7e7e7 0.01%,
+      #1a1a1a 100%
+    );
+
+  --grid-gradient-dark: 
+    repeating-linear-gradient(
+      to right,
+      #000 0,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    repeating-linear-gradient(
+      to bottom,
+      #000 0,
+      #000 2px,
+      transparent 2px,
+      transparent 4px
+    ),
+    linear-gradient(
+      to bottom,
+      #007f0c 0,
+      #004306 100%
+    );
+  
+  --label-stroke-light: #000000; /* Цвет обводки для светлой темы */
+  --label-stroke-dark: #00CC14; /* Цвет обводки для тёмной темы */
+}
